@@ -1,5 +1,5 @@
 CREATE TABLE `funcionario` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `nome` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `salario` float(5) COLLATE utf8_unicode_ci NOT NULL,
